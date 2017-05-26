@@ -25,6 +25,7 @@ namespace ADLSfactory22
             // create data factory management client
             string resourceGroupName = "t-sichoudemo";
             string dataFactoryName = "ADLSdemoooo3";
+            string Name = "siddhant";
 
             TokenCloudCredentials aadTokenCredentials = new TokenCloudCredentials(
                     ConfigurationManager.AppSettings["SubscriptionId"],
